@@ -51,7 +51,7 @@ void main() {
   };
 
   var states = [Maharashtra, Kerala, Karnataka, TamilNadu, AndhraPradesh];
-
+  print("Before sorting \n")
   print(states);
   int n= states.length;
   for(int i=0; i<n;i++){
@@ -63,6 +63,7 @@ void main() {
       }
     }
   }
+  print("After sorting \n") 
   print(states);
 
 }
